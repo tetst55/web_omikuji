@@ -5,7 +5,6 @@ import os
 st.title("🧙‍♂️ 手作りおみくじアプリ")
 
 dir_path = os.path.dirname(__file__)
-
 if st.button("占う", type="primary"):
     kujis = ["daikichi.png", "chukichi.png", "kichi.png", "kyo.png"]
     result_img = random.choice(kujis)
